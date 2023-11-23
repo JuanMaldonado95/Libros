@@ -1,0 +1,99 @@
+.containerprincipal {
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #7caef3;
+}
+
+hr {
+    width: 80%;
+}
+
+.table-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.table-container {
+    max-width: 80%;
+    overflow-x: auto;
+}
+
+.table-container td {
+    text-align: center;
+    overflow-x: scroll;
+}
+
+.table-container th {
+    font-size: 20px;
+    color: #7caef3;
+    text-align: center;
+}
+
+.buttom-space {
+    margin-top: 10px;
+}
+
+.buttom-space button {
+    margin: 0 30px;
+}
+
+.my-button {
+    align-items: center;
+    background-color: #474646;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 174, 255, 0.7);
+}
+
+.my-button:hover {
+    background-color: #7caef3;
+    box-shadow: 0 0 20px rgba(0, 174, 255, 0.7);
+}
+
+.my-buttonremove {
+    align-items: center;
+    background-color: #474646;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 174, 255, 0.7);
+}
+
+.my-buttonremove:hover {
+    background-color: #f37c7c;
+    box-shadow: 0 0 20px rgba(0, 174, 255, 0.7);
+}
+
+.btn-edit {
+    text-align: right;
+    color: rgba(0, 174, 255, 0.7);
+}
+
+.btn-del {
+    color: #f37c7c;
+}
+
+.button-remove {
+    color: #f10606;
+    margin-right: 5px;
+}
